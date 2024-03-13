@@ -1,6 +1,5 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
-import { makeCreateGymUseCase } from "@/services/factories/make-create-gym-use-case";
 import { makeCheckInUseCase } from "@/services/factories/make-check-in-use-case";
 
 export async function create(request: FastifyRequest, reply: FastifyReply) {

@@ -1,6 +1,5 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
-import { makeSearchGymsUseCase } from "@/services/factories/make-search-gyms-use-case";
 import { makeFetchUserCheckInsHistoryUseCase } from "@/services/factories/make-fetch-user-check-ins-history-use-case";
 
 export async function history(request: FastifyRequest, reply: FastifyReply) {
